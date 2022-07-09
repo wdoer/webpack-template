@@ -1,0 +1,13 @@
+extends ../includes/mothership.pug
+
+append vars
+  - var title = 'About'
+  - var description = 'About page'
+  - var inner = true
+
+block content
+  main#about.content
+    div.skiptarget
+      a#maincontent
+    h1.visually-hidden Контент сайта
+    p This is page About.html

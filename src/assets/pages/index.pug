@@ -1,0 +1,14 @@
+extends ../includes/mothership.pug
+
+append vars
+  - var title = 'Index'
+  - var description = 'Page index'
+  - var inner = false
+
+block content
+  main#index.content
+    div.skiptarget
+      a#maincontent
+    h1.visually-hidden Контент сайта
+    p This is page Index.html
+    img(src="assets/img/png/webpack.png", alt="", width="777")
